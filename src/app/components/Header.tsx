@@ -6,6 +6,9 @@ import { useState } from "react";
 const tools = [
   { name: "Stripe Fees", href: "/us/stripe" },
   { name: "PayPal Fees", href: "/us/paypal" },
+  { name: "ACH Calculator", href: "/us/stripe-ach" },
+  { name: "F&F Calculator", href: "/paypal/friends-family" },
+  { name: "Etsy Fees", href: "/etsy" },
   { name: "Compare", href: "/compare" },
   { name: "Invoice", href: "/invoice" },
   { name: "Margin", href: "/margin" },

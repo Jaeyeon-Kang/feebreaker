@@ -32,8 +32,33 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/gb/stripe" className="hover:text-emerald-600">
+                  UK Stripe Fees
+                </Link>
+              </li>
+              <li>
+                <Link href="/gb/paypal" className="hover:text-emerald-600">
+                  UK PayPal Fees
+                </Link>
+              </li>
+              <li>
+                <Link href="/etsy" className="hover:text-emerald-600">
+                  Etsy Fees
+                </Link>
+              </li>
+              <li>
                 <Link href="/compare" className="hover:text-emerald-600">
                   Stripe vs PayPal
+                </Link>
+              </li>
+              <li>
+                <Link href="/paypal/friends-family" className="hover:text-emerald-600">
+                  PayPal F&amp;F
+                </Link>
+              </li>
+              <li>
+                <Link href="/us/stripe-ach" className="hover:text-emerald-600">
+                  Stripe ACH
                 </Link>
               </li>
             </ul>

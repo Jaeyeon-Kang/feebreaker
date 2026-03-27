@@ -24,6 +24,14 @@ const tools = [
     priority: "A" as const,
   },
   {
+    title: "Etsy Fee Calculator",
+    description:
+      "Calculate Etsy transaction fees, payment processing, and listing fees. See exactly what you keep from each sale.",
+    href: "/etsy",
+    icon: "\uD83D\uDED2",
+    priority: "A" as const,
+  },
+  {
     title: "Stripe vs PayPal",
     description:
       "Side-by-side fee comparison. Find out which platform costs you less.",
@@ -55,9 +63,25 @@ const tools = [
     icon: "\u23F1\uFE0F",
     priority: "B" as const,
   },
+  {
+    title: "PayPal Friends & Family",
+    description:
+      "Is PayPal F&F really free? Calculate when fees apply and how it compares to Goods & Services.",
+    href: "/paypal/friends-family",
+    icon: "\uD83D\uDC65",
+    priority: "B" as const,
+  },
+  {
+    title: "Stripe ACH Calculator",
+    description:
+      "ACH Direct Debit at 0.8%, capped at $5. See how much you save vs card payments on large transactions.",
+    href: "/us/stripe-ach",
+    icon: "\uD83C\uDFE6",
+    priority: "B" as const,
+  },
 ];
 
-type Country = "us" | "uk";
+type Country = "us" | "uk" | "ca" | "au";
 
 const countryConfig: Record<
   Country,
@@ -121,6 +145,58 @@ const countryConfig: Record<
       },
     ],
   },
+  ca: {
+    label: "CA",
+    flag: "\uD83C\uDDE8\uD83C\uDDE6",
+    currency: "CAD",
+    sym: "C$",
+    examples: [
+      {
+        label: "Stripe CA",
+        amount: "C$100",
+        fee: `C$${calculateFee(100, stripeFees.ca.domesticRate, stripeFees.ca.domesticFixed).fee.toFixed(2)}`,
+        keep: `C$${calculateFee(100, stripeFees.ca.domesticRate, stripeFees.ca.domesticFixed).youKeep.toFixed(2)}`,
+      },
+      {
+        label: "PayPal CA",
+        amount: "C$100",
+        fee: `C$${calculateFee(100, paypalFees.ca.domesticRate, paypalFees.ca.domesticFixed).fee.toFixed(2)}`,
+        keep: `C$${calculateFee(100, paypalFees.ca.domesticRate, paypalFees.ca.domesticFixed).youKeep.toFixed(2)}`,
+      },
+      {
+        label: "Stripe Int'l",
+        amount: "C$100",
+        fee: `C$${calculateFee(100, stripeFees.ca.internationalRate, stripeFees.ca.internationalFixed).fee.toFixed(2)}`,
+        keep: `C$${calculateFee(100, stripeFees.ca.internationalRate, stripeFees.ca.internationalFixed).youKeep.toFixed(2)}`,
+      },
+    ],
+  },
+  au: {
+    label: "AU",
+    flag: "\uD83C\uDDE6\uD83C\uDDFA",
+    currency: "AUD",
+    sym: "A$",
+    examples: [
+      {
+        label: "Stripe AU",
+        amount: "A$100",
+        fee: `A$${calculateFee(100, stripeFees.au.domesticRate, stripeFees.au.domesticFixed).fee.toFixed(2)}`,
+        keep: `A$${calculateFee(100, stripeFees.au.domesticRate, stripeFees.au.domesticFixed).youKeep.toFixed(2)}`,
+      },
+      {
+        label: "PayPal AU",
+        amount: "A$100",
+        fee: `A$${calculateFee(100, paypalFees.au.domesticRate, paypalFees.au.domesticFixed).fee.toFixed(2)}`,
+        keep: `A$${calculateFee(100, paypalFees.au.domesticRate, paypalFees.au.domesticFixed).youKeep.toFixed(2)}`,
+      },
+      {
+        label: "Stripe Int'l",
+        amount: "A$100",
+        fee: `A$${calculateFee(100, stripeFees.au.internationalRate, stripeFees.au.internationalFixed).fee.toFixed(2)}`,
+        keep: `A$${calculateFee(100, stripeFees.au.internationalRate, stripeFees.au.internationalFixed).youKeep.toFixed(2)}`,
+      },
+    ],
+  },
 };
 
 export default function HomePage() {
@@ -160,7 +236,7 @@ export default function HomePage() {
               </button>
             ))}
             <span className="text-xs text-slate-400 ml-2 hidden sm:inline">
-              More countries coming soon
+              US &bull; UK &bull; CA &bull; AU
             </span>
           </div>
 
@@ -332,8 +408,8 @@ export default function HomePage() {
               Which countries do you support?
             </h3>
             <p className="text-sm text-slate-500">
-              Right now we support US and UK fee structures for Stripe and
-              PayPal. Canada, Australia, and more are on the way.
+              We support US, UK, Canada, and Australia fee structures for Stripe
+              and PayPal. More countries are on the way.
             </p>
           </div>
         </div>
