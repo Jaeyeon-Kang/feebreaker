@@ -129,13 +129,11 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-xl font-bold text-slate-900 mb-3">Contact</h2>
           <p>
-            If you have any questions about this privacy policy, contact us at:{" "}
-            <a
-              href="mailto:contact@feebreaker.com"
-              className="text-emerald-600 hover:underline"
-            >
-              contact@feebreaker.com
-            </a>
+            If you have any questions about this privacy policy, please{" "}
+            <Link href="/contact" className="text-emerald-600 hover:underline">
+              contact us
+            </Link>
+            .
           </p>
         </section>
       </div>

@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Contact FeeBreaker — Report Errors or Suggest Features",
+  description:
+    "Get in touch with the FeeBreaker team. Report outdated fee data, suggest new calculators, or send general feedback.",
+  alternates: {
+    canonical: "https://feebreaker.com/contact",
+  },
+};
 
 const GOOGLE_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSfWvKJFWq5bvWPB2sh5fOHYHEm-zhMDDnZRVnGva8tasr473g/viewform?embedded=true";
