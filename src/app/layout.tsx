@@ -23,7 +23,7 @@ export const metadata: Metadata = {
       "Free fee calculators, invoice generator, and business tools for freelancers and online sellers.",
     images: [
       {
-        url: `${siteUrl}/og-image.png`,
+        url: `${siteUrl}/opengraph-image`,
         width: 1200,
         height: 630,
         alt: "FeeBreaker — Free fee calculators for freelancers",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "FeeBreaker — Know What You Keep After Fees",
     description:
       "Free fee calculators, invoice generator, and business tools for freelancers.",
-    images: [`${siteUrl}/og-image.png`],
+    images: [`${siteUrl}/opengraph-image`],
   },
   alternates: {
     canonical: siteUrl,
