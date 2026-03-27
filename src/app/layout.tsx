@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const siteUrl = "https://feebreaker.com";
 
@@ -80,6 +81,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col">
+        <GoogleAnalytics />
         <Header />
         <main id="main-content" className="flex-1">{children}</main>
         <Footer />
