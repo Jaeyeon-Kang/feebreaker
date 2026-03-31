@@ -4,22 +4,22 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 
-const siteUrl = "https://feebreaker.com";
+const siteUrl = "https://www.feebreaker.com";
 
 export const metadata: Metadata = {
   title: {
-    default: "FeeBreaker — Know What You Keep After Fees",
+    default: "FeeBreaker ??Know What You Keep After Fees",
     template: "%s | FeeBreaker",
   },
   description:
-    "Free fee calculators, invoice generator, and business tools for freelancers and online sellers. Stripe fees, PayPal fees, profit margins — calculated instantly.",
+    "Free fee calculators, invoice generator, and business tools for freelancers and online sellers. Stripe fees, PayPal fees, profit margins ??calculated instantly.",
   metadataBase: new URL(siteUrl),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: siteUrl,
     siteName: "FeeBreaker",
-    title: "FeeBreaker — Know What You Keep After Fees",
+    title: "FeeBreaker ??Know What You Keep After Fees",
     description:
       "Free fee calculators, invoice generator, and business tools for freelancers and online sellers.",
     images: [
@@ -27,13 +27,13 @@ export const metadata: Metadata = {
         url: `${siteUrl}/opengraph-image`,
         width: 1200,
         height: 630,
-        alt: "FeeBreaker — Free fee calculators for freelancers",
+        alt: "FeeBreaker ??Free fee calculators for freelancers",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "FeeBreaker — Know What You Keep After Fees",
+    title: "FeeBreaker ??Know What You Keep After Fees",
     description:
       "Free fee calculators, invoice generator, and business tools for freelancers.",
     images: [`${siteUrl}/opengraph-image`],

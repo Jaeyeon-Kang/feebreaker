@@ -4,17 +4,17 @@ import { stripeFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "US Stripe Fee Calculator — Calculate Stripe Processing Fees",
+  title: "US Stripe Fee Calculator ??Calculate Stripe Processing Fees",
   description:
     "Free Stripe fee calculator for US payments. See exactly how much Stripe charges and what you keep. Domestic 2.9% + 30\u00A2, international 3.9% + 30\u00A2. Reverse calculate included.",
   openGraph: {
     title: "US Stripe Fee Calculator | FeeBreaker",
     description:
       "Calculate Stripe fees for US payments. See what you keep after Stripe processing fees.",
-    url: "https://feebreaker.com/us/stripe",
+    url: "https://www.feebreaker.com/us/stripe",
   },
   alternates: {
-    canonical: "https://feebreaker.com/us/stripe",
+    canonical: "https://www.feebreaker.com/us/stripe",
   },
 };
 
@@ -23,7 +23,7 @@ export default function USStripePage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "Stripe Fee Calculator (US)",
-    url: "https://feebreaker.com/us/stripe",
+    url: "https://www.feebreaker.com/us/stripe",
     description:
       "Calculate Stripe processing fees for US domestic and international payments.",
     applicationCategory: "FinanceApplication",

@@ -7,10 +7,10 @@ const processingRates: Record<
   string,
   { rate: number; fixed: number; sym: string; currency: string; label: string }
 > = {
-  us: { rate: 0.03, fixed: 0.25, sym: "$", currency: "USD", label: "🇺🇸 US" },
-  uk: { rate: 0.04, fixed: 0.20, sym: "£", currency: "GBP", label: "🇬🇧 UK" },
-  ca: { rate: 0.03, fixed: 0.25, sym: "C$", currency: "CAD", label: "🇨🇦 CA" },
-  au: { rate: 0.03, fixed: 0.25, sym: "A$", currency: "AUD", label: "🇦🇺 AU" },
+  us: { rate: 0.03, fixed: 0.25, sym: "$", currency: "USD", label: "?눣?눡 US" },
+  uk: { rate: 0.04, fixed: 0.20, sym: "짙", currency: "GBP", label: "?눐?눉 UK" },
+  ca: { rate: 0.03, fixed: 0.25, sym: "C$", currency: "CAD", label: "?눊?눇 CA" },
+  au: { rate: 0.03, fixed: 0.25, sym: "A$", currency: "AUD", label: "?눇?눣 AU" },
 };
 
 const samplePrices = [10, 25, 50, 100, 150, 200];
@@ -56,7 +56,7 @@ export default function EtsyPage() {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Etsy Fee Calculator",
-            url: "https://feebreaker.com/etsy",
+            url: "https://www.feebreaker.com/etsy",
             description:
               "Calculate Etsy transaction fees, payment processing fees, and listing fees. See exactly what you keep from each sale.",
             applicationCategory: "FinanceApplication",
@@ -255,7 +255,7 @@ export default function EtsyPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-4 text-center">
             <p className="text-sm text-slate-500 mb-1">You keep</p>
             <p className="text-4xl font-extrabold text-emerald-600">
-              {calc.youKeep >= 0 ? fmt(calc.youKeep) : `−${sym}${Math.abs(calc.youKeep).toFixed(2)}`}
+              {calc.youKeep >= 0 ? fmt(calc.youKeep) : `??{sym}${Math.abs(calc.youKeep).toFixed(2)}`}
             </p>
             <p className="text-xs text-slate-400 mt-1">
               from {fmt(itemPrice)} item price &middot; Effective fee rate:{" "}
@@ -327,23 +327,23 @@ export default function EtsyPage() {
           </p>
           <ul className="list-disc list-inside space-y-2 ml-2">
             <li>
-              <strong>Transaction fee (6.5%)</strong> — charged on the total
+              <strong>Transaction fee (6.5%)</strong> ??charged on the total
               sale price including any shipping cost you charge the buyer.
             </li>
             <li>
-              <strong>Payment processing fee</strong> — charged by Etsy Payments
+              <strong>Payment processing fee</strong> ??charged by Etsy Payments
               for processing the card. Rates vary by country: US is 3% + $0.25,
-              UK is 4% + £0.20, CA and AU are 3% + $0.25.
+              UK is 4% + 짙0.20, CA and AU are 3% + $0.25.
             </li>
             <li>
-              <strong>Listing fee ($0.20)</strong> — charged each time you list
+              <strong>Listing fee ($0.20)</strong> ??charged each time you list
               or renew an item (every 4 months or when sold).
             </li>
           </ul>
           <p>
-            Etsy does not have a separate &quot;marketplace fee&quot; — the 6.5%
+            Etsy does not have a separate &quot;marketplace fee&quot; ??the 6.5%
             transaction fee covers Etsy&apos;s marketplace services. For a typical
-            US seller, the effective total fee rate works out to around 9.5–12%
+            US seller, the effective total fee rate works out to around 9.5??2%
             depending on item price.
           </p>
         </div>
@@ -361,7 +361,7 @@ export default function EtsyPage() {
               Etsy takes a 6.5% transaction fee on every sale (including
               shipping). On top of that, Etsy Payments charges a payment
               processing fee (3% + $0.25 in the US). Combined, Etsy typically
-              takes 9.5–10.5% of your item price plus fixed fees. For a $50 US
+              takes 9.5??0.5% of your item price plus fixed fees. For a $50 US
               sale, Etsy takes about $5.50 total.
             </p>
           </div>

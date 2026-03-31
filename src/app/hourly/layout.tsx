@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     title: "Freelance Hourly Rate Calculator | FeeBreaker",
     description:
       "Calculate the hourly rate you need to charge to meet your income goals as a freelancer.",
-    url: "https://feebreaker.com/hourly",
+    url: "https://www.feebreaker.com/hourly",
   },
   alternates: {
-    canonical: "https://feebreaker.com/hourly",
+    canonical: "https://www.feebreaker.com/hourly",
   },
 };
 

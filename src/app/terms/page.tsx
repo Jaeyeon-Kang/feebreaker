@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — FeeBreaker",
+  title: "Terms of Service ??FeeBreaker",
   description:
     "FeeBreaker terms of service. Understand the conditions for using our free fee calculators and business tools.",
   alternates: {
-    canonical: "https://feebreaker.com/terms",
+    canonical: "https://www.feebreaker.com/terms",
   },
 };
 

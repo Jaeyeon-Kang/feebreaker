@@ -51,7 +51,7 @@ export default function ComparePage() {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Stripe vs PayPal Fee Comparison",
-            url: "https://feebreaker.com/compare",
+            url: "https://www.feebreaker.com/compare",
             description:
               "Compare Stripe and PayPal fees side by side for US payments.",
             applicationCategory: "FinanceApplication",

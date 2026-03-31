@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     title: "Stripe vs PayPal Fee Comparison | FeeBreaker",
     description:
       "Compare Stripe and PayPal fees side by side. See which payment processor saves you more money.",
-    url: "https://feebreaker.com/compare",
+    url: "https://www.feebreaker.com/compare",
   },
   alternates: {
-    canonical: "https://feebreaker.com/compare",
+    canonical: "https://www.feebreaker.com/compare",
   },
 };
 

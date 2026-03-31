@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Etsy charges more than just a listing fee. A full breakdown of transaction fees, payment processing, offsite ads, and how to calculate your actual profit per sale.",
   alternates: {
-    canonical: "https://feebreaker.com/blog/understanding-etsy-fees",
+    canonical: "https://www.feebreaker.com/blog/understanding-etsy-fees",
   },
 };
 
@@ -26,7 +26,7 @@ export default function EtsyFeesPost() {
       </h1>
       <div className="flex items-center gap-3 text-sm text-slate-400 mb-8">
         <span>March 30, 2026</span>
-        <span>·</span>
+        <span>쨌</span>
         <span>5 min read</span>
       </div>
 
@@ -35,7 +35,7 @@ export default function EtsyFeesPost() {
         <p>
           New Etsy sellers often focus on the $0.20 listing fee and think that&apos;s most
           of the cost. In reality, listing fees are the smallest part. By the time a sale
-          goes through, Etsy takes around 8–11% of the sale price — sometimes more.
+          goes through, Etsy takes around 8??1% of the sale price ??sometimes more.
           Here&apos;s the full breakdown.
         </p>
 
@@ -60,8 +60,8 @@ export default function EtsyFeesPost() {
               },
               {
                 name: "Offsite Ads Fee",
-                rate: "12–15% of sale",
-                desc: "Etsy promotes your listings on Google, Facebook, and other platforms. If a sale comes through an offsite ad, you pay 12–15% of that sale. Sellers under $10k/year can opt out; sellers over $10k/year cannot.",
+                rate: "12??5% of sale",
+                desc: "Etsy promotes your listings on Google, Facebook, and other platforms. If a sale comes through an offsite ad, you pay 12??5% of that sale. Sellers under $10k/year can opt out; sellers over $10k/year cannot.",
               },
               {
                 name: "Etsy Plus (optional)",
@@ -88,10 +88,10 @@ export default function EtsyFeesPost() {
               <tbody>
                 {[
                   { label: "Sale price + shipping", value: "$35.00" },
-                  { label: "Listing fee", value: "−$0.20" },
-                  { label: "Transaction fee (6.5% × $35)", value: "−$2.28" },
-                  { label: "Payment processing (3% × $35 + $0.25)", value: "−$1.30" },
-                  { label: "Total fees", value: "−$3.78", highlight: true },
+                  { label: "Listing fee", value: "??0.20" },
+                  { label: "Transaction fee (6.5% 횞 $35)", value: "??2.28" },
+                  { label: "Payment processing (3% 횞 $35 + $0.25)", value: "??1.30" },
+                  { label: "Total fees", value: "??3.78", highlight: true },
                   { label: "You receive", value: "$31.22", highlight: true },
                 ].map((row, i) => (
                   <tr key={row.label} className={i % 2 === 0 ? "" : "bg-slate-50"}>
@@ -107,8 +107,8 @@ export default function EtsyFeesPost() {
             </table>
           </div>
           <p className="text-sm text-slate-500 mt-2">
-            That&apos;s 10.8% in total fees — not including the cost of materials or your time.
-            If an offsite ad drove the sale, add another 12–15%.
+            That&apos;s 10.8% in total fees ??not including the cost of materials or your time.
+            If an offsite ad drove the sale, add another 12??5%.
           </p>
         </section>
 
@@ -122,7 +122,7 @@ export default function EtsyFeesPost() {
           </p>
           <p className="mt-3">
             You have no control over which listings get promoted. The 30-day attribution
-            window is wide — a buyer could see the ad on day 1 and purchase on day 29, and
+            window is wide ??a buyer could see the ad on day 1 and purchase on day 29, and
             you&apos;d still owe the fee.
           </p>
           <p className="mt-3">
@@ -142,10 +142,10 @@ export default function EtsyFeesPost() {
               <strong>Add Etsy fees (approx. 10%):</strong> Divide your cost floor by 0.90 to find a break-even price. Selling below this means losing money on every transaction.
             </li>
             <li>
-              <strong>Add your profit margin:</strong> Etsy recommends a 20–30% margin on top of costs and fees.
+              <strong>Add your profit margin:</strong> Etsy recommends a 20??0% margin on top of costs and fees.
             </li>
             <li>
-              <strong>Check competitor pricing:</strong> Make sure your price is competitive, but don&apos;t race to the bottom — competing on price alone on Etsy rarely works.
+              <strong>Check competitor pricing:</strong> Make sure your price is competitive, but don&apos;t race to the bottom ??competing on price alone on Etsy rarely works.
             </li>
           </ol>
         </section>
@@ -153,7 +153,7 @@ export default function EtsyFeesPost() {
         <section>
           <h2 className="text-xl font-bold text-slate-900 mb-3">Is Etsy Worth It?</h2>
           <p>
-            For most handmade and vintage sellers, yes — Etsy&apos;s audience reach justifies
+            For most handmade and vintage sellers, yes ??Etsy&apos;s audience reach justifies
             the fees. The platform brings buyers who are specifically looking for unique,
             handcrafted items. That traffic is hard to replicate on your own website,
             especially when starting out.
@@ -167,14 +167,13 @@ export default function EtsyFeesPost() {
         <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 mt-8">
           <p className="font-semibold text-emerald-900 mb-2">Calculate your Etsy profit instantly</p>
           <p className="text-sm text-emerald-800 mb-3">
-            Enter your item price and see exactly what Etsy takes — including all fees.
+            Enter your item price and see exactly what Etsy takes ??including all fees.
           </p>
           <Link
             href="/etsy"
             className="inline-block px-4 py-2 bg-emerald-600 text-white text-sm font-semibold rounded-lg hover:bg-emerald-700 transition-colors"
           >
-            Etsy Fee Calculator →
-          </Link>
+            Etsy Fee Calculator ??          </Link>
         </div>
 
       </div>

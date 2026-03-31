@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — FeeBreaker",
+  title: "Privacy Policy ??FeeBreaker",
   description:
-    "FeeBreaker privacy policy. Learn how we handle your data — we don't collect any personal information.",
+    "FeeBreaker privacy policy. Learn how we handle your data ??we don't collect any personal information.",
   alternates: {
-    canonical: "https://feebreaker.com/privacy",
+    canonical: "https://www.feebreaker.com/privacy",
   },
 };
 
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
             <li>No account registration or login required</li>
             <li>No names, emails, or contact information</li>
             <li>No payment information</li>
-            <li>No invoices or financial data you enter into our tools — all
+            <li>No invoices or financial data you enter into our tools ??all
               calculations run client-side in your browser only</li>
           </ul>
         </section>

@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     title: "Profit Margin Calculator | FeeBreaker",
     description:
       "Calculate profit margin and markup percentage instantly. Free tool for pricing products and services.",
-    url: "https://feebreaker.com/margin",
+    url: "https://www.feebreaker.com/margin",
   },
   alternates: {
-    canonical: "https://feebreaker.com/margin",
+    canonical: "https://www.feebreaker.com/margin",
   },
 };
 

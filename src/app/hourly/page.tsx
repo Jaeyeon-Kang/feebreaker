@@ -46,7 +46,7 @@ export default function HourlyRatePage() {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Freelance Hourly Rate Calculator",
-            url: "https://feebreaker.com/hourly",
+            url: "https://www.feebreaker.com/hourly",
             description:
               "Calculate your ideal freelance hourly rate based on income goals, expenses, and billable hours.",
             applicationCategory: "FinanceApplication",

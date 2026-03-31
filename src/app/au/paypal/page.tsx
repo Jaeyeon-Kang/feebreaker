@@ -4,17 +4,17 @@ import { paypalFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Australia PayPal Fee Calculator — Calculate PayPal Fees (AUD)",
+  title: "Australia PayPal Fee Calculator ??Calculate PayPal Fees (AUD)",
   description:
     "Free PayPal fee calculator for Australian payments. Standard 2.6% + A$0.30.",
   openGraph: {
     title: "Australia PayPal Fee Calculator | FeeBreaker",
     description:
       "Calculate PayPal fees for Australian payments in AUD. See what you keep after PayPal processing fees.",
-    url: "https://feebreaker.com/au/paypal",
+    url: "https://www.feebreaker.com/au/paypal",
   },
   alternates: {
-    canonical: "https://feebreaker.com/au/paypal",
+    canonical: "https://www.feebreaker.com/au/paypal",
   },
 };
 
@@ -23,7 +23,7 @@ export default function AUPayPalPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "PayPal Fee Calculator (Australia)",
-    url: "https://feebreaker.com/au/paypal",
+    url: "https://www.feebreaker.com/au/paypal",
     description:
       "Calculate PayPal fees for Australian domestic and international payments.",
     applicationCategory: "FinanceApplication",
@@ -87,7 +87,7 @@ export default function AUPayPalPage() {
           <p>
             Currency conversion incurs an additional fee when your customer pays
             in a different currency. PayPal applies a conversion rate that
-            includes a spread above the mid-market rate — typically around 3-4%.
+            includes a spread above the mid-market rate ??typically around 3-4%.
             Settling in AUD when possible helps avoid these extra charges.
           </p>
         </div>

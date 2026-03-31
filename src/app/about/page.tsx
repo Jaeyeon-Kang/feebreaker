@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About FeeBreaker — Free Fee Calculators for Freelancers",
+  title: "About FeeBreaker ??Free Fee Calculators for Freelancers",
   description:
     "FeeBreaker provides free, accurate fee calculators for Stripe, PayPal, Etsy, and more. Built for freelancers and online sellers who want to know exactly what they keep after fees.",
   alternates: {
-    canonical: "https://feebreaker.com/about",
+    canonical: "https://www.feebreaker.com/about",
   },
 };
 
@@ -43,12 +43,12 @@ const TOOLS = [
   },
   {
     title: "Stripe ACH Calculator",
-    desc: "Bank transfer fees via Stripe ACH — lower rates for large payments.",
+    desc: "Bank transfer fees via Stripe ACH ??lower rates for large payments.",
     href: "/us/stripe-ach",
   },
   {
     title: "Invoice Generator",
-    desc: "Create and download professional PDF invoices — free, no sign-up required.",
+    desc: "Create and download professional PDF invoices ??free, no sign-up required.",
     href: "/invoice",
   },
   {
@@ -66,7 +66,7 @@ const TOOLS = [
 const FAQ = [
   {
     q: "Are the fee calculations accurate?",
-    a: "We source fee rates directly from official Stripe, PayPal, and Etsy pricing pages and update them whenever changes are announced. That said, processors can change rates at any time — always verify with your payment provider before making major decisions.",
+    a: "We source fee rates directly from official Stripe, PayPal, and Etsy pricing pages and update them whenever changes are announced. That said, processors can change rates at any time ??always verify with your payment provider before making major decisions.",
   },
   {
     q: "Does FeeBreaker store my data?",
@@ -113,7 +113,7 @@ export default function AboutPage() {
           <h2 className="text-xl font-bold text-slate-900 mb-3">Why We Built This</h2>
           <p>
             Payment processors like Stripe and PayPal charge fees that aren&apos;t always
-            obvious — a percentage here, a flat fee there, and suddenly a $100 payment
+            obvious ??a percentage here, a flat fee there, and suddenly a $100 payment
             becomes $96.70. Multiply that across hundreds of transactions and you&apos;re
             losing real money without realizing it.
           </p>
@@ -123,7 +123,7 @@ export default function AboutPage() {
             <strong>after fees, how much do I actually keep?</strong>
           </p>
           <p className="mt-3">
-            We also added a reverse calculator — so if you need to receive exactly $500,
+            We also added a reverse calculator ??so if you need to receive exactly $500,
             you can find out how much to invoice so that after fees you end up with $500.
           </p>
         </section>
@@ -140,7 +140,7 @@ export default function AboutPage() {
               "Anyone who has ever wondered why their payout was less than expected",
             ].map((item) => (
               <li key={item} className="flex gap-2">
-                <span className="text-emerald-500 font-bold mt-0.5">→</span>
+                <span className="text-emerald-500 font-bold mt-0.5">??/span>
                 <span>{item}</span>
               </li>
             ))}
@@ -187,7 +187,7 @@ export default function AboutPage() {
               },
             ].map((item) => (
               <li key={item.title} className="flex gap-3">
-                <span className="text-emerald-500 font-bold mt-0.5">✓</span>
+                <span className="text-emerald-500 font-bold mt-0.5">??/span>
                 <div>
                   <span className="font-semibold text-slate-900">{item.title}: </span>
                   {item.desc}

@@ -4,17 +4,17 @@ import { stripeFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Canada Stripe Fee Calculator — Calculate Stripe Fees (CAD)",
+  title: "Canada Stripe Fee Calculator ??Calculate Stripe Fees (CAD)",
   description:
     "Free Stripe fee calculator for Canadian payments. Domestic 2.9% + C$0.30, international 3.9% + C$0.30.",
   openGraph: {
     title: "Canada Stripe Fee Calculator | FeeBreaker",
     description:
       "Calculate Stripe fees for Canadian payments in CAD. See what you keep after Stripe processing fees.",
-    url: "https://feebreaker.com/ca/stripe",
+    url: "https://www.feebreaker.com/ca/stripe",
   },
   alternates: {
-    canonical: "https://feebreaker.com/ca/stripe",
+    canonical: "https://www.feebreaker.com/ca/stripe",
   },
 };
 
@@ -23,7 +23,7 @@ export default function CAStripePage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "Stripe Fee Calculator (Canada)",
-    url: "https://feebreaker.com/ca/stripe",
+    url: "https://www.feebreaker.com/ca/stripe",
     description:
       "Calculate Stripe processing fees for Canadian domestic and international payments.",
     applicationCategory: "FinanceApplication",

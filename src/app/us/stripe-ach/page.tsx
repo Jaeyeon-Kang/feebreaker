@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: "Stripe ACH Fee Calculator \u2014 0.8% Capped at $5",
   description:
     "Calculate Stripe ACH Direct Debit fees. 0.8% per transaction, capped at $5.00. See how much you save vs card payments on large transactions.",
-  alternates: { canonical: "https://feebreaker.com/us/stripe-ach" },
+  alternates: { canonical: "https://www.feebreaker.com/us/stripe-ach" },
   openGraph: {
     title: "Stripe ACH Fee Calculator | FeeBreaker",
     description:
       "ACH Direct Debit at 0.8%, capped at $5.00. The most cost-effective way to accept large payments.",
-    url: "https://feebreaker.com/us/stripe-ach",
+    url: "https://www.feebreaker.com/us/stripe-ach",
   },
 };
 
@@ -30,7 +30,7 @@ export default function StripeACHPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "Stripe ACH Fee Calculator",
-    url: "https://feebreaker.com/us/stripe-ach",
+    url: "https://www.feebreaker.com/us/stripe-ach",
     description:
       "Calculate Stripe ACH Direct Debit fees. 0.8% per transaction, capped at $5.00.",
     applicationCategory: "FinanceApplication",

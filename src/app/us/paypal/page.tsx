@@ -4,17 +4,17 @@ import { paypalFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "US PayPal Fee Calculator — Calculate PayPal Processing Fees",
+  title: "US PayPal Fee Calculator ??Calculate PayPal Processing Fees",
   description:
     "Free PayPal fee calculator for US payments. PayPal Checkout 3.49% + $0.49. See your take-home amount instantly. Reverse calculation included.",
   openGraph: {
     title: "US PayPal Fee Calculator | FeeBreaker",
     description:
       "Calculate PayPal fees for US payments. See what you keep after PayPal processing fees.",
-    url: "https://feebreaker.com/us/paypal",
+    url: "https://www.feebreaker.com/us/paypal",
   },
   alternates: {
-    canonical: "https://feebreaker.com/us/paypal",
+    canonical: "https://www.feebreaker.com/us/paypal",
   },
 };
 
@@ -23,7 +23,7 @@ export default function USPayPalPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "PayPal Fee Calculator (US)",
-    url: "https://feebreaker.com/us/paypal",
+    url: "https://www.feebreaker.com/us/paypal",
     description:
       "Calculate PayPal Checkout fees for US domestic and international payments.",
     applicationCategory: "FinanceApplication",

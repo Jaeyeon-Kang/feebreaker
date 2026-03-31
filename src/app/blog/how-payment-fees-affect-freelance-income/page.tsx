@@ -4,9 +4,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "How Payment Processing Fees Eat Into Your Freelance Income",
   description:
-    "Most freelancers underestimate how much they lose to fees each year. Here's how to calculate the real cost — and how to price your services to account for it.",
+    "Most freelancers underestimate how much they lose to fees each year. Here's how to calculate the real cost ??and how to price your services to account for it.",
   alternates: {
-    canonical: "https://feebreaker.com/blog/how-payment-fees-affect-freelance-income",
+    canonical: "https://www.feebreaker.com/blog/how-payment-fees-affect-freelance-income",
   },
 };
 
@@ -26,7 +26,7 @@ export default function FeesAndFreelancePost() {
       </h1>
       <div className="flex items-center gap-3 text-sm text-slate-400 mb-8">
         <span>March 30, 2026</span>
-        <span>·</span>
+        <span>쨌</span>
         <span>6 min read</span>
       </div>
 
@@ -35,14 +35,14 @@ export default function FeesAndFreelancePost() {
         <p>
           If you charge $100 per hour and bill 20 hours a month, you expect $2,000.
           But after Stripe takes its cut, you actually receive around $1,942. That&apos;s
-          $58 gone — before taxes. Over a year, that&apos;s nearly $700 in fees you
+          $58 gone ??before taxes. Over a year, that&apos;s nearly $700 in fees you
           might not be accounting for when you set your rates.
         </p>
 
         <section>
           <h2 className="text-xl font-bold text-slate-900 mb-3">The Hidden Cost of Convenience</h2>
           <p>
-            Payment processors are convenient — and they should be paid for that convenience.
+            Payment processors are convenient ??and they should be paid for that convenience.
             The problem isn&apos;t the fee itself, it&apos;s that most freelancers don&apos;t factor fees
             into their pricing. They calculate their target income, set a rate to hit it,
             then watch fees silently erode their actual take-home pay.
@@ -92,7 +92,7 @@ export default function FeesAndFreelancePost() {
           </p>
           <p className="mt-3">
             For example, if you want to receive exactly $1,000 via Stripe, you should
-            invoice <strong>$1,030.93</strong> — not $1,000. If you invoice $1,000,
+            invoice <strong>$1,030.93</strong> ??not $1,000. If you invoice $1,000,
             you receive $970.70.
           </p>
           <p className="mt-3">
@@ -107,21 +107,21 @@ export default function FeesAndFreelancePost() {
           <h3 className="font-semibold text-slate-800 mt-4 mb-2">1. Use ACH / Bank Transfer for Large Invoices</h3>
           <p>
             Stripe ACH Direct Debit charges just 0.8% (capped at $5). On a $2,000 invoice,
-            that&apos;s $5 instead of $58.30. The catch: ACH takes 3–5 business days to settle
+            that&apos;s $5 instead of $58.30. The catch: ACH takes 3?? business days to settle
             and requires the client to connect their bank account.
           </p>
 
           <h3 className="font-semibold text-slate-800 mt-4 mb-2">2. Consolidate Invoices</h3>
           <p>
             The flat fee component ($0.30 for Stripe, $0.49 for PayPal) hits hardest on
-            small transactions. If you bill weekly at $250, you pay $0.30 × 52 = $15.60/year
-            in flat fees. Billing monthly at $1,000 cuts that to $0.30 × 12 = $3.60.
+            small transactions. If you bill weekly at $250, you pay $0.30 횞 52 = $15.60/year
+            in flat fees. Billing monthly at $1,000 cuts that to $0.30 횞 12 = $3.60.
           </p>
 
           <h3 className="font-semibold text-slate-800 mt-4 mb-2">3. Build Fees Into Your Rate</h3>
           <p>
-            Add 3–4% to your desired hourly or project rate. Make it a line item on your
-            invoice labelled &quot;Payment processing fee&quot; — or simply bake it into your
+            Add 3??% to your desired hourly or project rate. Make it a line item on your
+            invoice labelled &quot;Payment processing fee&quot; ??or simply bake it into your
             quoted price. Either way, you stop absorbing a business cost personally.
           </p>
         </section>
@@ -129,7 +129,7 @@ export default function FeesAndFreelancePost() {
         <section>
           <h2 className="text-xl font-bold text-slate-900 mb-3">Is It Legal to Pass Fees to Clients?</h2>
           <p>
-            In most US states, yes — you can add a surcharge to credit card payments, provided
+            In most US states, yes ??you can add a surcharge to credit card payments, provided
             you disclose it upfront. However, Stripe and PayPal&apos;s terms of service have their
             own rules about surcharging. Always check the current terms before adding fees
             as a separate line item.
@@ -147,11 +147,9 @@ export default function FeesAndFreelancePost() {
           </p>
           <div className="flex flex-wrap gap-3">
             <Link href="/us/stripe" className="inline-block px-4 py-2 bg-emerald-600 text-white text-sm font-semibold rounded-lg hover:bg-emerald-700 transition-colors">
-              Stripe Calculator →
-            </Link>
+              Stripe Calculator ??            </Link>
             <Link href="/us/paypal" className="inline-block px-4 py-2 border border-emerald-600 text-emerald-700 text-sm font-semibold rounded-lg hover:bg-emerald-50 transition-colors">
-              PayPal Calculator →
-            </Link>
+              PayPal Calculator ??            </Link>
           </div>
         </div>
 

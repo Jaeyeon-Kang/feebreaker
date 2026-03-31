@@ -4,17 +4,17 @@ import { paypalFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "UK PayPal Fee Calculator — Calculate PayPal Fees for UK Payments",
+  title: "UK PayPal Fee Calculator ??Calculate PayPal Fees for UK Payments",
   description:
     "Free PayPal fee calculator for UK payments. Standard rate 2.9% + 30p, international 4.99% + 30p.",
   openGraph: {
     title: "UK PayPal Fee Calculator | FeeBreaker",
     description:
       "Calculate PayPal fees for UK payments. See what you keep after PayPal processing fees.",
-    url: "https://feebreaker.com/gb/paypal",
+    url: "https://www.feebreaker.com/gb/paypal",
   },
   alternates: {
-    canonical: "https://feebreaker.com/gb/paypal",
+    canonical: "https://www.feebreaker.com/gb/paypal",
   },
 };
 
@@ -23,7 +23,7 @@ export default function GBPayPalPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "PayPal Fee Calculator (UK)",
-    url: "https://feebreaker.com/gb/paypal",
+    url: "https://www.feebreaker.com/gb/paypal",
     description:
       "Calculate PayPal fees for UK domestic and international payments.",
     applicationCategory: "FinanceApplication",
@@ -80,8 +80,8 @@ export default function GBPayPalPage() {
         <div className="text-sm text-slate-600 space-y-3">
           <p>
             PayPal UK charges a standard rate of{" "}
-            <strong>2.9% + £0.30</strong> per domestic transaction. International
-            transactions cost <strong>4.99% + £0.30</strong>. There are no
+            <strong>2.9% + 짙0.30</strong> per domestic transaction. International
+            transactions cost <strong>4.99% + 짙0.30</strong>. There are no
             monthly fees for standard PayPal business accounts.
           </p>
           <p>
@@ -147,11 +147,11 @@ export default function GBPayPalPage() {
                 },
               ].map((row, i) => (
                 <tr key={i}>
-                  <td className="p-3 font-medium">£{row.amt.toFixed(2)}</td>
+                  <td className="p-3 font-medium">짙{row.amt.toFixed(2)}</td>
                   <td className="p-3 text-slate-500">{row.type}</td>
-                  <td className="p-3 text-red-500">-£{row.fee.toFixed(2)}</td>
+                  <td className="p-3 text-red-500">-짙{row.fee.toFixed(2)}</td>
                   <td className="p-3 font-semibold text-emerald-600">
-                    £{row.keep.toFixed(2)}
+                    짙{row.keep.toFixed(2)}
                   </td>
                 </tr>
               ))}
@@ -189,7 +189,7 @@ export default function GBPayPalPage() {
               How does PayPal compare to Stripe in the UK?
             </h3>
             <p className="text-sm text-slate-500 mt-1">
-              Stripe (1.5% + £0.20) is cheaper than PayPal (2.9% + £0.30) for
+              Stripe (1.5% + 짙0.20) is cheaper than PayPal (2.9% + 짙0.30) for
               UK domestic transactions. However, PayPal&apos;s buyer recognition
               and checkout trust can improve conversion rates for some businesses.
               Use our{" "}
