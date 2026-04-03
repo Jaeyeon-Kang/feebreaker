@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contact FeeBreaker ??Report Errors or Suggest Features",
+  title: "Contact FeeBreaker — Report Errors or Suggest Features",
   description:
     "Get in touch with the FeeBreaker team. Report outdated fee data, suggest new calculators, or send general feedback.",
   alternates: {
@@ -44,7 +44,8 @@ export default function ContactPage() {
           title="Contact FeeBreaker"
           className="block"
         >
-          Loading??        </iframe>
+          Loading…
+        </iframe>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">

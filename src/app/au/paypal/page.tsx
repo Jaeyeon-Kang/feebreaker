@@ -4,7 +4,7 @@ import { paypalFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Australia PayPal Fee Calculator ??Calculate PayPal Fees (AUD)",
+  title: "Australia PayPal Fee Calculator — Calculate PayPal Fees (AUD)",
   description:
     "Free PayPal fee calculator for Australian payments. Standard 2.6% + A$0.30.",
   openGraph: {
@@ -87,7 +87,7 @@ export default function AUPayPalPage() {
           <p>
             Currency conversion incurs an additional fee when your customer pays
             in a different currency. PayPal applies a conversion rate that
-            includes a spread above the mid-market rate ??typically around 3-4%.
+            includes a spread above the mid-market rate — typically around 3-4%.
             Settling in AUD when possible helps avoid these extra charges.
           </p>
         </div>

@@ -4,7 +4,7 @@ import { paypalFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "US PayPal Fee Calculator ??Calculate PayPal Processing Fees",
+  title: "US PayPal Fee Calculator — Calculate PayPal Processing Fees",
   description:
     "Free PayPal fee calculator for US payments. PayPal Checkout 3.49% + $0.49. See your take-home amount instantly. Reverse calculation included.",
   openGraph: {

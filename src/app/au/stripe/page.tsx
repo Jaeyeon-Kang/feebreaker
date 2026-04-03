@@ -4,7 +4,7 @@ import { stripeFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Australia Stripe Fee Calculator ??Calculate Stripe Fees (AUD)",
+  title: "Australia Stripe Fee Calculator — Calculate Stripe Fees (AUD)",
   description:
     "Free Stripe fee calculator for Australian payments. Domestic 1.7% + A$0.30, international 3.5% + A$0.30.",
   openGraph: {
@@ -81,7 +81,7 @@ export default function AUStripePage() {
         <div className="prose prose-slate prose-sm max-w-none text-slate-600 space-y-3">
           <p>
             Stripe Australia offers competitive domestic rates at{" "}
-            <strong>1.7% + A$0.30</strong> ??significantly lower than the US rate
+            <strong>1.7% + A$0.30</strong> — significantly lower than the US rate
             of 2.9%. International cards cost <strong>3.5% + A$0.30</strong>, and
             there is an additional 1% currency conversion fee when applicable.
           </p>
@@ -193,7 +193,7 @@ export default function AUStripePage() {
               Stripe sets different rates per country based on local card network
               interchange rates and market conditions. Australia&apos;s regulated
               interchange environment results in lower underlying costs, which
-              Stripe passes on as a 1.7% domestic rate ??versus 2.9% in the US.
+              Stripe passes on as a 1.7% domestic rate — versus 2.9% in the US.
             </p>
           </div>
           <div>

@@ -4,7 +4,7 @@ import { stripeFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "US Stripe Fee Calculator ??Calculate Stripe Processing Fees",
+  title: "US Stripe Fee Calculator — Calculate Stripe Processing Fees",
   description:
     "Free Stripe fee calculator for US payments. See exactly how much Stripe charges and what you keep. Domestic 2.9% + 30\u00A2, international 3.9% + 30\u00A2. Reverse calculate included.",
   openGraph: {

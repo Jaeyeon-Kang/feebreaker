@@ -4,7 +4,7 @@ import { stripeFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Canada Stripe Fee Calculator ??Calculate Stripe Fees (CAD)",
+  title: "Canada Stripe Fee Calculator — Calculate Stripe Fees (CAD)",
   description:
     "Free Stripe fee calculator for Canadian payments. Domestic 2.9% + C$0.30, international 3.9% + C$0.30.",
   openGraph: {

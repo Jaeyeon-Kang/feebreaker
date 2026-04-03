@@ -4,7 +4,7 @@ import { stripeFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "UK Stripe Fee Calculator ??Calculate Stripe Fees for UK Payments",
+  title: "UK Stripe Fee Calculator — Calculate Stripe Fees for UK Payments",
   description:
     "Free Stripe fee calculator for UK payments. See exactly how much Stripe charges and what you keep. UK domestic 1.5% + 20p, international 3.2% + 20p.",
   openGraph: {
@@ -81,8 +81,8 @@ export default function GBStripePage() {
           <p>
             Stripe charges a percentage-based fee plus a flat per-transaction fee on
             every payment. For UK domestic cards, the standard rate is{" "}
-            <strong>1.5% + 짙0.20</strong>. International cards cost more at{" "}
-            <strong>3.2% + 짙0.20</strong>, and there is an additional{" "}
+            <strong>1.5% + £0.20</strong>. International cards cost more at{" "}
+            <strong>3.2% + £0.20</strong>, and there is an additional{" "}
             <strong>+1.5%</strong> surcharge for cards issued outside the UK.
           </p>
           <p>
@@ -158,11 +158,11 @@ export default function GBStripePage() {
                 },
               ].map((row, i) => (
                 <tr key={i}>
-                  <td className="p-3 font-medium">짙{row.amt.toFixed(2)}</td>
+                  <td className="p-3 font-medium">£{row.amt.toFixed(2)}</td>
                   <td className="p-3 text-slate-500">{row.type}</td>
-                  <td className="p-3 text-red-500">-짙{row.fee.toFixed(2)}</td>
+                  <td className="p-3 text-red-500">-£{row.fee.toFixed(2)}</td>
                   <td className="p-3 font-semibold text-emerald-600">
-                    짙{row.keep.toFixed(2)}
+                    £{row.keep.toFixed(2)}
                   </td>
                 </tr>
               ))}
@@ -191,7 +191,7 @@ export default function GBStripePage() {
             </h3>
             <p className="text-sm text-slate-500 mt-1">
               International cards (cards issued outside the UK) are charged at
-              3.2% + 짙0.20. Additionally, there is a +1.5% fee for non-UK issued
+              3.2% + £0.20. Additionally, there is a +1.5% fee for non-UK issued
               cards. Currency conversion adds another 2% on top when the payment
               currency differs from your settlement currency.
             </p>
@@ -204,7 +204,7 @@ export default function GBStripePage() {
               High-volume businesses can contact Stripe for custom pricing.
               Encouraging customers to pay with UK-issued cards avoids the
               international surcharge. Settling in GBP eliminates currency
-              conversion fees. Businesses processing 짙250K+ per year may qualify
+              conversion fees. Businesses processing £250K+ per year may qualify
               for negotiated rates.
             </p>
           </div>

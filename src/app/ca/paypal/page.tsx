@@ -4,7 +4,7 @@ import { paypalFees } from "@/data/fees";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Canada PayPal Fee Calculator ??Calculate PayPal Fees (CAD)",
+  title: "Canada PayPal Fee Calculator — Calculate PayPal Fees (CAD)",
   description:
     "Free PayPal fee calculator for Canadian payments. Standard 2.89% + C$0.30.",
   openGraph: {
