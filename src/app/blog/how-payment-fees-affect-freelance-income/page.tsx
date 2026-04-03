@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Most freelancers underestimate how much they lose to fees each year. Here's how to calculate the real cost ??and how to price your services to account for it.",
   alternates: {
-    canonical: "https://www.feebreaker.com/blog/how-payment-fees-affect-freelance-income",
+    canonical: "https://feebreaker.com/blog/how-payment-fees-affect-freelance-income",
   },
 };
 

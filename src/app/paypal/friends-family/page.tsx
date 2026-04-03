@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: "PayPal Friends & Family Fee Calculator \u2014 Is F&F Really Free?",
   description:
     "Calculate PayPal Friends & Family fees. Domestic F&F is free when funded by bank/balance. International F&F costs 5% (max $4.99). Compare with Goods & Services fees.",
-  alternates: { canonical: "https://www.feebreaker.com/paypal/friends-family" },
+  alternates: { canonical: "https://feebreaker.com/paypal/friends-family" },
   openGraph: {
     title: "PayPal Friends & Family Fee Calculator | FeeBreaker",
     description:
       "Is PayPal Friends & Family really free? Calculate F&F fees vs Goods & Services.",
-    url: "https://www.feebreaker.com/paypal/friends-family",
+    url: "https://feebreaker.com/paypal/friends-family",
   },
 };
 
@@ -20,7 +20,7 @@ export default function FriendsFamilyPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "PayPal Friends & Family Fee Calculator",
-    url: "https://www.feebreaker.com/paypal/friends-family",
+    url: "https://feebreaker.com/paypal/friends-family",
     description:
       "Calculate PayPal Friends & Family fees. Find out when F&F is truly free and when fees apply.",
     applicationCategory: "FinanceApplication",

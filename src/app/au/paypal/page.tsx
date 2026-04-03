@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Australia PayPal Fee Calculator | FeeBreaker",
     description:
       "Calculate PayPal fees for Australian payments in AUD. See what you keep after PayPal processing fees.",
-    url: "https://www.feebreaker.com/au/paypal",
+    url: "https://feebreaker.com/au/paypal",
   },
   alternates: {
-    canonical: "https://www.feebreaker.com/au/paypal",
+    canonical: "https://feebreaker.com/au/paypal",
   },
 };
 
@@ -23,7 +23,7 @@ export default function AUPayPalPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "PayPal Fee Calculator (Australia)",
-    url: "https://www.feebreaker.com/au/paypal",
+    url: "https://feebreaker.com/au/paypal",
     description:
       "Calculate PayPal fees for Australian domestic and international payments.",
     applicationCategory: "FinanceApplication",

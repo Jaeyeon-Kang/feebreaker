@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Guides and articles on payment processing fees, freelance pricing, and tools for online sellers. Learn how to keep more of what you earn.",
   alternates: {
-    canonical: "https://www.feebreaker.com/blog",
+    canonical: "https://feebreaker.com/blog",
   },
 };
 

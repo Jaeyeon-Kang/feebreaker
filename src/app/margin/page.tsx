@@ -49,7 +49,7 @@ export default function MarginPage() {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Profit Margin Calculator",
-            url: "https://www.feebreaker.com/margin",
+            url: "https://feebreaker.com/margin",
             description:
               "Calculate profit margin, markup percentage, and gross profit.",
             applicationCategory: "FinanceApplication",

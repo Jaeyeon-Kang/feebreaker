@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "FeeBreaker terms of service. Understand the conditions for using our free fee calculators and business tools.",
   alternates: {
-    canonical: "https://www.feebreaker.com/terms",
+    canonical: "https://feebreaker.com/terms",
   },
 };
 

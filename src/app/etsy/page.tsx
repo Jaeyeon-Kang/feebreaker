@@ -56,7 +56,7 @@ export default function EtsyPage() {
             "@context": "https://schema.org",
             "@type": "WebApplication",
             name: "Etsy Fee Calculator",
-            url: "https://www.feebreaker.com/etsy",
+            url: "https://feebreaker.com/etsy",
             description:
               "Calculate Etsy transaction fees, payment processing fees, and listing fees. See exactly what you keep from each sale.",
             applicationCategory: "FinanceApplication",

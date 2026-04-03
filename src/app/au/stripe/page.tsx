@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Australia Stripe Fee Calculator | FeeBreaker",
     description:
       "Calculate Stripe fees for Australian payments in AUD. See what you keep after Stripe processing fees.",
-    url: "https://www.feebreaker.com/au/stripe",
+    url: "https://feebreaker.com/au/stripe",
   },
   alternates: {
-    canonical: "https://www.feebreaker.com/au/stripe",
+    canonical: "https://feebreaker.com/au/stripe",
   },
 };
 
@@ -23,7 +23,7 @@ export default function AUStripePage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "Stripe Fee Calculator (Australia)",
-    url: "https://www.feebreaker.com/au/stripe",
+    url: "https://feebreaker.com/au/stripe",
     description:
       "Calculate Stripe processing fees for Australian domestic and international payments.",
     applicationCategory: "FinanceApplication",

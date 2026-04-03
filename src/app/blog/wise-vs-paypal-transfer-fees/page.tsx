@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Sending money internationally? Wise and PayPal charge very differently. A side-by-side comparison of fees, exchange rates, and when each service actually saves you money.",
   alternates: {
-    canonical: "https://www.feebreaker.com/blog/wise-vs-paypal-transfer-fees",
+    canonical: "https://feebreaker.com/blog/wise-vs-paypal-transfer-fees",
   },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "FeeBreaker privacy policy. Learn how we handle your data ??we don't collect any personal information.",
   alternates: {
-    canonical: "https://www.feebreaker.com/privacy",
+    canonical: "https://feebreaker.com/privacy",
   },
 };
 

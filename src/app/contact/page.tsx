@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Get in touch with the FeeBreaker team. Report outdated fee data, suggest new calculators, or send general feedback.",
   alternates: {
-    canonical: "https://www.feebreaker.com/contact",
+    canonical: "https://feebreaker.com/contact",
   },
 };
 

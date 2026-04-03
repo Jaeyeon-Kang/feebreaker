@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Fiverr takes 20% flat. Upwork uses a sliding scale down to 10%. Here's a real comparison of freelancer fees on both platforms — and which one keeps more of your earnings.",
   alternates: {
-    canonical: "https://www.feebreaker.com/blog/fiverr-vs-upwork-fees",
+    canonical: "https://feebreaker.com/blog/fiverr-vs-upwork-fees",
   },
 };
 

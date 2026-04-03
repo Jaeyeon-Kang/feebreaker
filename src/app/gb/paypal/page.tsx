@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "UK PayPal Fee Calculator | FeeBreaker",
     description:
       "Calculate PayPal fees for UK payments. See what you keep after PayPal processing fees.",
-    url: "https://www.feebreaker.com/gb/paypal",
+    url: "https://feebreaker.com/gb/paypal",
   },
   alternates: {
-    canonical: "https://www.feebreaker.com/gb/paypal",
+    canonical: "https://feebreaker.com/gb/paypal",
   },
 };
 
@@ -23,7 +23,7 @@ export default function GBPayPalPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "PayPal Fee Calculator (UK)",
-    url: "https://www.feebreaker.com/gb/paypal",
+    url: "https://feebreaker.com/gb/paypal",
     description:
       "Calculate PayPal fees for UK domestic and international payments.",
     applicationCategory: "FinanceApplication",

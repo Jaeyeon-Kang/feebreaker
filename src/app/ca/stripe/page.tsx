@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Canada Stripe Fee Calculator | FeeBreaker",
     description:
       "Calculate Stripe fees for Canadian payments in CAD. See what you keep after Stripe processing fees.",
-    url: "https://www.feebreaker.com/ca/stripe",
+    url: "https://feebreaker.com/ca/stripe",
   },
   alternates: {
-    canonical: "https://www.feebreaker.com/ca/stripe",
+    canonical: "https://feebreaker.com/ca/stripe",
   },
 };
 
@@ -23,7 +23,7 @@ export default function CAStripePage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "Stripe Fee Calculator (Canada)",
-    url: "https://www.feebreaker.com/ca/stripe",
+    url: "https://feebreaker.com/ca/stripe",
     description:
       "Calculate Stripe processing fees for Canadian domestic and international payments.",
     applicationCategory: "FinanceApplication",

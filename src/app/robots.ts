@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://www.feebreaker.com/sitemap.xml",
+    sitemap: "https://feebreaker.com/sitemap.xml",
   };
 }

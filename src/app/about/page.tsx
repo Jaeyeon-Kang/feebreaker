@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "FeeBreaker provides free, accurate fee calculators for Stripe, PayPal, Etsy, and more. Built for freelancers and online sellers who want to know exactly what they keep after fees.",
   alternates: {
-    canonical: "https://www.feebreaker.com/about",
+    canonical: "https://feebreaker.com/about",
   },
 };
 

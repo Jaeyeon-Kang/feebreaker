@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "UK Stripe Fee Calculator | FeeBreaker",
     description:
       "Calculate Stripe fees for UK payments. See what you keep after Stripe processing fees.",
-    url: "https://www.feebreaker.com/gb/stripe",
+    url: "https://feebreaker.com/gb/stripe",
   },
   alternates: {
-    canonical: "https://www.feebreaker.com/gb/stripe",
+    canonical: "https://feebreaker.com/gb/stripe",
   },
 };
 
@@ -23,7 +23,7 @@ export default function GBStripePage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "Stripe Fee Calculator (UK)",
-    url: "https://www.feebreaker.com/gb/stripe",
+    url: "https://feebreaker.com/gb/stripe",
     description:
       "Calculate Stripe processing fees for UK domestic and international payments.",
     applicationCategory: "FinanceApplication",

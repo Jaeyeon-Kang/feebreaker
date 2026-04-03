@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Etsy charges more than just a listing fee. A full breakdown of transaction fees, payment processing, offsite ads, and how to calculate your actual profit per sale.",
   alternates: {
-    canonical: "https://www.feebreaker.com/blog/understanding-etsy-fees",
+    canonical: "https://feebreaker.com/blog/understanding-etsy-fees",
   },
 };
 

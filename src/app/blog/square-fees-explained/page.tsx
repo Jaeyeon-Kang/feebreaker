@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Square charges different rates for in-person, online, and manually entered payments. A clear breakdown of Square fees for small businesses and freelancers in 2026.",
   alternates: {
-    canonical: "https://www.feebreaker.com/blog/square-fees-explained",
+    canonical: "https://feebreaker.com/blog/square-fees-explained",
   },
 };
 

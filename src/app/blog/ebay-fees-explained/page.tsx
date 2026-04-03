@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "A complete guide to eBay seller fees in 2026 — final value fees by category, insertion fees, managed payments processing, and how to calculate your net payout per sale.",
   alternates: {
-    canonical: "https://www.feebreaker.com/blog/ebay-fees-explained",
+    canonical: "https://feebreaker.com/blog/ebay-fees-explained",
   },
 };
 

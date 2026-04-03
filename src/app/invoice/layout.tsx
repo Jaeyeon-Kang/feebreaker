@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     title: "Free Invoice Generator | FeeBreaker",
     description:
       "Create and download professional PDF invoices instantly. Free invoice maker with tax calculation.",
-    url: "https://www.feebreaker.com/invoice",
+    url: "https://feebreaker.com/invoice",
   },
   alternates: {
-    canonical: "https://www.feebreaker.com/invoice",
+    canonical: "https://feebreaker.com/invoice",
   },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "A complete breakdown of Amazon seller fees — referral fees by category, FBA fulfillment costs, monthly subscription, and how to calculate your actual profit per sale.",
   alternates: {
-    canonical: "https://www.feebreaker.com/blog/amazon-seller-fees",
+    canonical: "https://feebreaker.com/blog/amazon-seller-fees",
   },
 };
 

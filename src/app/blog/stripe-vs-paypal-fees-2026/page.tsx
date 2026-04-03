@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "A side-by-side breakdown of Stripe and PayPal fee structures for US freelancers and sellers ??including when each platform actually saves you money.",
   alternates: {
-    canonical: "https://www.feebreaker.com/blog/stripe-vs-paypal-fees-2026",
+    canonical: "https://feebreaker.com/blog/stripe-vs-paypal-fees-2026",
   },
 };
 

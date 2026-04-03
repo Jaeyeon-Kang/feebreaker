@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import GoogleAnalytics from "./components/GoogleAnalytics";
 
-const siteUrl = "https://www.feebreaker.com";
+const siteUrl = "https://feebreaker.com";
 
 export const metadata: Metadata = {
   title: {

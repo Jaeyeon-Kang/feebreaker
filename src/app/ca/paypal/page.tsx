@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     title: "Canada PayPal Fee Calculator | FeeBreaker",
     description:
       "Calculate PayPal fees for Canadian payments in CAD. See what you keep after PayPal processing fees.",
-    url: "https://www.feebreaker.com/ca/paypal",
+    url: "https://feebreaker.com/ca/paypal",
   },
   alternates: {
-    canonical: "https://www.feebreaker.com/ca/paypal",
+    canonical: "https://feebreaker.com/ca/paypal",
   },
 };
 
@@ -23,7 +23,7 @@ export default function CAPayPalPage() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "PayPal Fee Calculator (Canada)",
-    url: "https://www.feebreaker.com/ca/paypal",
+    url: "https://feebreaker.com/ca/paypal",
     description:
       "Calculate PayPal fees for Canadian domestic and international payments.",
     applicationCategory: "FinanceApplication",
