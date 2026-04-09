@@ -15,6 +15,13 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://feebreaker.com/au/paypal",
+    languages: {
+      "en-US": "https://feebreaker.com/us/paypal",
+      "en-GB": "https://feebreaker.com/gb/paypal",
+      "en-CA": "https://feebreaker.com/ca/paypal",
+      "en-AU": "https://feebreaker.com/au/paypal",
+      "x-default": "https://feebreaker.com/us/paypal",
+    },
   },
 };
 

@@ -15,6 +15,13 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://feebreaker.com/au/stripe",
+    languages: {
+      "en-US": "https://feebreaker.com/us/stripe",
+      "en-GB": "https://feebreaker.com/gb/stripe",
+      "en-CA": "https://feebreaker.com/ca/stripe",
+      "en-AU": "https://feebreaker.com/au/stripe",
+      "x-default": "https://feebreaker.com/us/stripe",
+    },
   },
 };
 
