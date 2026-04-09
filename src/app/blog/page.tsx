@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getAllPosts } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: "Blog — FeeBreaker",
@@ -10,34 +11,9 @@ export const metadata: Metadata = {
   },
 };
 
-const POSTS = [
-  {
-    slug: "stripe-vs-paypal-fees-2026",
-    title: "Stripe vs PayPal Fees in 2026: Which Costs Less?",
-    excerpt:
-      "A side-by-side breakdown of Stripe and PayPal fee structures for US freelancers and sellers — including when each platform actually saves you money.",
-    date: "March 30, 2026",
-    readTime: "5 min read",
-  },
-  {
-    slug: "how-payment-fees-affect-freelance-income",
-    title: "How Payment Processing Fees Eat Into Your Freelance Income",
-    excerpt:
-      "Most freelancers underestimate how much they lose to fees each year. Here's how to calculate the real cost — and how to price your services to account for it.",
-    date: "March 30, 2026",
-    readTime: "6 min read",
-  },
-  {
-    slug: "understanding-etsy-fees",
-    title: "Understanding Etsy Fees: What Sellers Actually Pay in 2026",
-    excerpt:
-      "Etsy charges more than just a listing fee. A full breakdown of transaction fees, payment processing, offsite ads, and how to calculate your actual profit per sale.",
-    date: "March 30, 2026",
-    readTime: "5 min read",
-  },
-];
-
 export default function BlogPage() {
+  const posts = getAllPosts();
+
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
       <nav aria-label="Breadcrumb" className="text-sm text-slate-400 mb-6">
@@ -52,7 +28,7 @@ export default function BlogPage() {
       </p>
 
       <div className="space-y-6">
-        {POSTS.map((post) => (
+        {posts.map((post) => (
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
@@ -63,9 +39,7 @@ export default function BlogPage() {
               <span>·</span>
               <span>{post.readTime}</span>
             </div>
-            <h2 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-emerald-700">
-              {post.title}
-            </h2>
+            <h2 className="text-lg font-bold text-slate-900 mb-2">{post.title}</h2>
             <p className="text-slate-500 text-sm leading-relaxed">{post.excerpt}</p>
             <span className="inline-block mt-3 text-sm text-emerald-600 font-medium">
               Read more →
