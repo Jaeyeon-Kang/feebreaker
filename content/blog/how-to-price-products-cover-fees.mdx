@@ -1,0 +1,136 @@
+---
+title: "How to Price Products to Cover Payment Processing Fees"
+description: "Don't let payment fees eat your margins. Learn the reverse pricing formula to set prices that protect your profit after Stripe, PayPal, and marketplace fees."
+excerpt: "Payment fees reduce your profit on every sale. Here's how to price products so you keep the margin you planned for."
+date: "2026-04-10"
+readTime: "5 min"
+breadcrumb: "Pricing for Fees"
+order: 10
+---
+
+## The Problem: Fees Shrink Your Margins
+
+Every online seller faces the same math problem. You set a price, a customer pays, and then payment processing takes a cut. If you priced your product based on your desired profit without accounting for fees, you're making less than you think.
+
+Consider a product with $30 in costs that you sell for $50, expecting a $20 profit:
+
+- Stripe fee: $50 × 2.9% + $0.30 = $1.75
+- Actual profit: $50 - $30 - $1.75 = **$18.25**
+- Your intended 40% margin becomes 36.5%
+
+On a single sale, losing $1.75 feels minor. But at 500 sales per month, that's $875. Over a year, $10,500 in fees you may not have budgeted for.
+
+## The Reverse Pricing Formula
+
+Instead of subtracting fees from your price, calculate the price that gives you your target take-home amount after fees.
+
+The formula for a percentage-plus-fixed-fee structure (like Stripe's 2.9% + $0.30):
+
+> **Price = (Target Amount + Fixed Fee) / (1 - Rate)**
+
+**Example:** You want to receive exactly $50 after Stripe fees:
+- Price = ($50 + $0.30) / (1 - 0.029)
+- Price = $50.30 / 0.971
+- Price = **$51.80**
+
+Verification: $51.80 × 2.9% + $0.30 = $1.80 fee. You keep $50.00. Exactly right.
+
+Our [Stripe Fee Calculator](/us/stripe) has a built-in reverse calculation mode that does this math for you instantly.
+
+## Pricing for Different Payment Processors
+
+Each processor has different rates, so your reverse-calculated price will vary:
+
+**To receive $100 after fees:**
+
+| Processor | Rate | Price to Charge | Fee | You Keep |
+|-----------|------|----------------|-----|----------|
+| Stripe (US) | 2.9% + $0.30 | $103.39 | $3.30 | $100.09 |
+| PayPal (US) | 3.49% + $0.49 | $104.12 | $4.12 | $100.00 |
+| Square (Online) | 2.9% + $0.30 | $103.39 | $3.30 | $100.09 |
+| Etsy | 9.5% + $0.45 | $110.99 | $11.00 | $99.99 |
+
+Etsy sellers need to charge 11% more than their target just to cover platform fees. This is why understanding your fee structure is critical before setting prices.
+
+## Strategy 1: Build Fees Into Product Prices
+
+The simplest approach is to add fees into every product price. This is transparent for you and invisible to the customer.
+
+**Steps:**
+1. Calculate your total cost (product + shipping + overhead)
+2. Add your target profit margin
+3. Apply the reverse formula to get the final price
+
+**Example for a handmade item:**
+- Materials: $15
+- Labor (1 hour at $25/hr): $25
+- Packaging and shipping materials: $5
+- Total cost: $45
+- Target margin: 40% → Target revenue: $45 / 0.60 = $75
+- With Stripe fee: ($75 + $0.30) / 0.971 = **$77.55**
+
+Round to $77.99 or $78.00 for clean pricing.
+
+## Strategy 2: Use Tiered Pricing
+
+Different price points have different effective fee rates because of the fixed per-transaction component.
+
+| Price | Stripe Fee | Effective Rate |
+|-------|-----------|---------------|
+| $5 | $0.45 | 8.9% |
+| $10 | $0.59 | 5.9% |
+| $25 | $1.03 | 4.1% |
+| $50 | $1.75 | 3.5% |
+| $100 | $3.20 | 3.2% |
+| $500 | $14.80 | 3.0% |
+
+Low-priced items get hit hardest. A $5 item loses almost 9% to fees. Consider:
+
+- **Bundling** low-priced items to increase average order value
+- **Setting minimum order amounts** to reduce the impact of fixed fees
+- **Using ACH or bank transfer** for large invoices (our [Stripe ACH Calculator](/us/stripe-ach) shows the 0.8% rate capped at $5)
+
+## Strategy 3: Adjust by Sales Channel
+
+If you sell on multiple platforms, each has different fee structures. Your pricing should reflect this:
+
+- **Your own website (Stripe):** Lowest fees, price competitively
+- **Etsy:** Highest fees, price 8-12% higher
+- **Amazon:** Referral fees vary by category (8-15%), price accordingly
+
+Some sellers maintain different prices across channels. Others keep uniform pricing and accept lower margins on high-fee platforms, treating them as customer acquisition channels.
+
+## Strategy 4: Offer Fee-Friendly Payment Options
+
+Encourage customers to use lower-cost payment methods:
+
+- **ACH/bank transfer** for B2B invoices (0.8% vs 2.9%)
+- **In-person card payments** for local sales (2.6% + $0.10 vs 2.9% + $0.30)
+- **PayPal Friends & Family** for informal sales (free domestically)
+
+Check our [PayPal F&F Calculator](/paypal/friends-family) to see when Friends & Family saves money versus Goods & Services.
+
+## Common Mistakes to Avoid
+
+**1. Forgetting about refund fees.** Stripe no longer refunds processing fees on refunded transactions. If you refund a $100 sale, you lose the $3.20 fee permanently. Factor your refund rate into pricing.
+
+**2. Ignoring international fees.** Cross-border transactions add 1-1.5% on most processors. If 20% of your sales are international, your blended rate is higher than the domestic rate.
+
+**3. Not updating prices when fees change.** Payment processors adjust rates periodically. Review your pricing whenever your processor announces changes.
+
+**4. Absorbing fees on low-margin products.** A 3% fee on a 50% margin product is manageable. A 3% fee on a 10% margin product cuts your profit by nearly a third.
+
+## Quick Reference: Reverse Pricing by Target Amount
+
+| You Want to Keep | Stripe Price | PayPal Price | Etsy Price |
+|-----------------|-------------|-------------|------------|
+| $25 | $26.35 | $26.41 | $28.12 |
+| $50 | $51.80 | $52.33 | $55.75 |
+| $75 | $77.56 | $78.25 | $83.37 |
+| $100 | $103.39 | $104.12 | $110.99 |
+
+Use our [Stripe vs PayPal Comparison](/compare) to find which processor keeps more of your revenue at your typical transaction size.
+
+<CTA href="/margin" title="Check Your Real Margins">
+Use the Profit Margin Calculator to see your actual margin after all costs and fees are accounted for.
+</CTA>
